@@ -1,6 +1,5 @@
-import Grid from './components/Grid';
-import Header from './components/Nav'
 import About from './components/About';
+import Header from './components/Nav'
 
 import me from './images/me.jpg'
 
@@ -10,7 +9,7 @@ export default function App() {
   return (
     <>
       <Header />
-      <Grid />
+      <About />
     </>
   );
 }

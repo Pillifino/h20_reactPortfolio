@@ -1,8 +1,16 @@
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 
-function About() {
+import me from '../images/me.jpg'
+
+function About(props) {
   return (
-    <Card style={{ width: '100%' }}>
+    <Container>
+      <Row>
+        <Col sm={8}>
+        <Card style={{ width: '100%' }}>
       <Card.Body>
         <Card.Title>About Me</Card.Title>
         <Card.Text>
@@ -10,6 +18,10 @@ function About() {
         </Card.Text>
       </Card.Body>
     </Card>
+        </Col>
+        <Col sm={4}><img src={me} alt = "this is an image of me"></img></Col> 
+      </Row>
+    </Container>
   );
 }
 
