@@ -12,7 +12,6 @@ function Header() {
             <Nav.Link href="#home">About Me</Nav.Link>
             <Nav.Link href="#features">Portfolio</Nav.Link>
             <Nav.Link href="#pricing">Contact</Nav.Link>
-            <Nav.Link href="#features">Portfolio</Nav.Link>
             <Nav.Link href="#pricing">Resume</Nav.Link>
           </Nav>
         </Container>
