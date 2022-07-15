@@ -1,26 +1,11 @@
-// Bootstrap imports
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
+import Nav from './components/Nav'
 
-function ColorSchemesExample() {
+
+// Pass users array to the List component as a prop
+export default function App() {
   return (
-    <>
-      <Navbar bg="dark" variant="dark">
-        <Container>
-          <Navbar.Brand href="#home">My Portfolio</Navbar.Brand>
-          <Nav className="me-auto">
-            <Nav.Link href="#home">About Me</Nav.Link>
-            <Nav.Link href="#features">Portfolio</Nav.Link>
-            <Nav.Link href="#pricing">Contact</Nav.Link>
-            <Nav.Link href="#features">Portfolio</Nav.Link>
-            <Nav.Link href="#pricing">Resume</Nav.Link>
-
-          </Nav>
-        </Container>
-      </Navbar>
-    </>
+    <div>
+      <Nav />
+    </div>
   );
 }
-
-export default ColorSchemesExample;
