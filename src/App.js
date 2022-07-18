@@ -1,4 +1,4 @@
-import About from './components/About/About';
+import About from './components/About';
 import Header from './components/Nav'
 
 // Pass users array to the List component as a prop

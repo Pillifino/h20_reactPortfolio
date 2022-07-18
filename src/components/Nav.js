@@ -1,11 +1,22 @@
+// CSS Imports
+import React from 'react';
+import '../Styles/Nav.css';
+// React Bootstrap Imports
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 
+const styles = {
+  navbarStyle: {
+    background: '',
+    justifyContent: '',
+  },
+};
+
 function Header({handleClick}) {
   return (
     <>
-      <Navbar bg="dark" variant="dark">
+      <Navbar bg="dark" variant="dark" className='navbar'>
         <Container>
           <Navbar.Brand href="#home">My Portfolio</Navbar.Brand>
           <Nav className="me-auto">
