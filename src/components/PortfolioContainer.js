@@ -24,7 +24,7 @@ export default function PortfolioContainer() {
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
-
+  console.log(currentPage);
   return (
     <div>
       {/* // TODO: Add a comment describing what we are passing as props */}

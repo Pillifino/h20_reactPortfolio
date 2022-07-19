@@ -13,6 +13,13 @@ const styles = {
   },
 };
 
+const route = {
+  home: 'home',
+  about: 'about',
+  portfolio: 'portfolio',
+  resume: 'resume'
+}
+
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <>
@@ -30,22 +37,13 @@ function NavTabs({ currentPage, handlePageChange }) {
               About Me
             </Nav.Link>
             <Nav.Link
-              href="#Portfoilio"
-              onClick={() => handlePageChange("Portfoilio")}
+              href="#Portfolio"
+              onClick={() => handlePageChange("Portfolio")}
               className={
-                currentPage === "Portfoilio" ? "nav-link active" : "nav-link"
+                currentPage === "Portfolio" ? "nav-link active" : "nav-link"
               }
             >
-              Portfoilio
-            </Nav.Link>
-            <Nav.Link
-              href="#Contact"
-              onClick={() => handlePageChange("Contact")}
-              className={
-                currentPage === "Contact" ? "nav-link active" : "nav-link"
-              }
-            >
-              Contact
+              Portfolio
             </Nav.Link>
             <Nav.Link
               href="#Contact"
