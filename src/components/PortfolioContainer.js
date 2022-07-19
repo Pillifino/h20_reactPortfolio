@@ -4,6 +4,7 @@ import About from './About';
 import Portfolio from './Portfolio'
 import Contact from './Contact'
 import Resume from './Resume'
+import Footer from './Footer'
 
 
 export default function PortfolioContainer() {
@@ -27,10 +28,9 @@ export default function PortfolioContainer() {
   console.log(currentPage);
   return (
     <div>
-      {/* // TODO: Add a comment describing what we are passing as props */}
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-      {/* // TODO: Add a comment explaining what is happening on the following line */}
       {renderPage()}
+      <Footer/>
     </div>
   );
 }
