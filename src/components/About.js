@@ -1,5 +1,5 @@
-// CSS Imports
 import React from 'react';
+// CSS Imports
 import '../Styles/About.css';
 // React Bootstrap Imports
 import Container from 'react-bootstrap/Container';
