@@ -6,19 +6,6 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 
-const styles = {
-  navbarStyle: {
-    background: "",
-    justifyContent: "",
-  },
-};
-
-const route = {
-  home: 'home',
-  about: 'about',
-  portfolio: 'portfolio',
-  resume: 'resume'
-}
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
