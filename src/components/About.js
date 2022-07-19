@@ -11,13 +11,13 @@ import me from '../images/me.jpg'
 
 const styles = {
   headerStyle: {
-    backgroundColor: 'lightcoral',
+    backgroundColor: 'Grey',
     color: 'White',
     fontSize: '2rem',
   },
   bodystyle: {
-    backgroundColor: 'cornsilk',
-    color: 'Black',
+    backgroundColor: 'darkgrey',
+    color: 'White',
     fontSize: '1.5rem'
   }
 };
@@ -39,7 +39,6 @@ function About(props) {
         <Col sm={4}><img src={me} width="100%" alt = "this is an image of me" className='me'></img></Col> 
       </Row>
     </Container>
-    
   );
 }
 
