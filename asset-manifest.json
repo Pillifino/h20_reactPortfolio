@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/h20_reactPortfolio/static/css/main.4e244d0a.css",
-    "main.js": "/h20_reactPortfolio/static/js/main.f9b2edca.js",
+    "main.css": "/h20_reactPortfolio/static/css/main.39fba885.css",
+    "main.js": "/h20_reactPortfolio/static/js/main.73b8ca8b.js",
     "static/js/787.a2cb61a6.chunk.js": "/h20_reactPortfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/background.jpg": "/h20_reactPortfolio/static/media/background.aeba82ac2f3aa59fdead.jpg",
     "static/media/me.jpg": "/h20_reactPortfolio/static/media/me.a6d34acd99813330a66d.jpg",
@@ -11,12 +11,12 @@
     "static/media/e-commerce.jpg": "/h20_reactPortfolio/static/media/e-commerce.c7285e37c47e020676ef.jpg",
     "static/media/teamProfile.jpg": "/h20_reactPortfolio/static/media/teamProfile.7700935b3ce83a7b7348.jpg",
     "index.html": "/h20_reactPortfolio/index.html",
-    "main.4e244d0a.css.map": "/h20_reactPortfolio/static/css/main.4e244d0a.css.map",
-    "main.f9b2edca.js.map": "/h20_reactPortfolio/static/js/main.f9b2edca.js.map",
+    "main.39fba885.css.map": "/h20_reactPortfolio/static/css/main.39fba885.css.map",
+    "main.73b8ca8b.js.map": "/h20_reactPortfolio/static/js/main.73b8ca8b.js.map",
     "787.a2cb61a6.chunk.js.map": "/h20_reactPortfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e244d0a.css",
-    "static/js/main.f9b2edca.js"
+    "static/css/main.39fba885.css",
+    "static/js/main.73b8ca8b.js"
   ]
 }
