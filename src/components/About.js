@@ -25,8 +25,8 @@ const styles = {
 function About(props) {
   return (
     <Container>
-      <Row>
-        <Col sm={8}>
+      <Row className='row'>
+        <Col sm={8} className='about-box'>
     <Card border="dark" className='border'>
         <Card.Header style={styles.headerStyle}>About Me</Card.Header>
         <Card.Body style={styles.bodystyle}>
@@ -36,7 +36,7 @@ function About(props) {
         </Card.Body>
       </Card>
         </Col>
-        <Col sm={4}><img src={me} width="100%" alt = "this is an image of me" className='me'></img></Col> 
+        <Col sm={4} className='image-box'><img src={me} width="100%" alt = "this is an image of me" className='me'></img></Col> 
       </Row>
     </Container>
   );

@@ -3,6 +3,8 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
+
+import '../Styles/Portfolio.css'
 const projects = [
   {
     number: 1,
