@@ -1,0 +1,8 @@
+h1 {
+    color: whitesmoke !important;
+}
+a {
+    color: whitesmoke !important;
+    display: flex;
+    justify-content: center;
+}
