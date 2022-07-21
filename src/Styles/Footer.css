@@ -1,7 +1,15 @@
-.navbar {
+footer {
     height: 100px;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
   }
   
-  .navbar a {
+  footer a {
     font-size: 1.3rem;
+    color: whitesmoke !important;
   }
