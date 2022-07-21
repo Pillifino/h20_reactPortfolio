@@ -25,7 +25,8 @@ main {
     background: #232526;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to bottom, #414345, #232526);
     background: linear-gradient(to bottom, #414345, #232526); 
-    /* border-left: 1px solid #fff;
-    border-right: 1px solid #fff; */
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
     /* color: whitesmoke; */
 }
