@@ -39,7 +39,7 @@ function Portfolio() {
       {projects.map((_, idx) => (
         <Col key={idx}>
           <Card>
-            <a href={_.link}>
+            <a href={_.link} target={"_blank"}>
             <Card.Img
               variant="top"
               src={require("../images/" + _.image + ".jpg")}
