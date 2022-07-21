@@ -25,7 +25,7 @@ const styles = {
 function About(props) {
   return (
     <Container>
-      <Row className='row'>
+      <Row className='row-container'>
         <Col sm={8} className='about-box'>
     <Card border="dark" className='border'>
         <Card.Header style={styles.headerStyle}>About Me</Card.Header>
